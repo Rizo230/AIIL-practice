@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "move_rover_executable: square_test.square_move:main",
+
         ],
     },
 )
